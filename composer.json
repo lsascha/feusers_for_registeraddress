@@ -1,0 +1,29 @@
+{
+    "name": "lsascha/feusersforregisteraddress",
+    "type": "typo3-cms-extension",
+    "description": "makes registeraddress use fe_users table",
+    "authors": [
+        {
+            "name": "Sascha L\u00f6ffler",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": ">=6.2.0 <8.99.99",
+        "afm/registeraddress": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lsascha\\Feusersforregisteraddress\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lsascha\\Feusersforregisteraddress\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "feusersforregisteraddress": "self.version",
+        "typo3-ter/feusersforregisteraddress": "self.version"
+    }
+}

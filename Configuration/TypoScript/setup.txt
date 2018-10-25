@@ -1,0 +1,26 @@
+config.tx_extbase{
+	persistence{
+		classes{
+			AFM\Registeraddress\Domain\Model\Address >
+			AFM\Registeraddress\Domain\Model\Address {
+				mapping {
+					tableName = fe_users
+					recordType = Tx_Extbase_Domain_Model_FrontendUser
+					columns {
+						name.mapOnProperty = name
+						gender.mapOnProperty = gender
+						first_name.mapOnProperty = firstName
+						middle_name.mapOnProperty = middleName
+						last_name.mapOnProperty = lastName
+						email.mapOnProperty = email
+						registeraddresshash.mapOnProperty = registeraddresshash
+						disable.mapOnProperty = hidden
+						module_sys_dmail_html.mapOnProperty = moduleSysDmailHtml
+						eigene_anrede.mapOnProperty = eigeneAnrede
+						tx_directmailsubscription_localgender.mapOnProperty = txDirectmailsubscriptionLocalgender
+					}
+				}
+			}
+		}
+	}
+}
