@@ -1,4 +1,8 @@
 config.tx_extbase{
+	objects {
+		AFM\Registeraddress\Controller\AddressController.className = Lsascha\Feusersforregisteraddress\Controller\AddressController
+		AFM\Registeraddress\Domain\Model\Address.className = Lsascha\Feusersforregisteraddress\Domain\Model\Address
+	}
 	persistence{
 		classes{
 			AFM\Registeraddress\Domain\Model\Address >
