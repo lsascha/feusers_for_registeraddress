@@ -6,7 +6,6 @@ use AFM\Registeraddress\Controller\AddressController as RegisteraddressAddressCo
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\SignalSlot\Dispatcher;
 use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
-use AFM\Registeraddress\Domain\Model\Address;
 
 /**
  *
